@@ -1,0 +1,11 @@
+title: Мой блог
+description: Пишу о том, что интересно
+author: Владимир Клочков
+markdown: kramdown
+
+# Так посты не попадут под собственный урл /YYYY/MM/DD/..,
+# а permalink каждого поста мы задаём вручную во front matter (см. _posts/*.md)
+
+# Отключаем лишние системные файлы при сборке
+exclude:
+  - README.md
